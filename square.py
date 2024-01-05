@@ -1,2 +1,3 @@
+import math
 def is_square(n):
-    pass
+    return True if math.floor(n ** (1/2)) == (n ** (1/2)) else False
