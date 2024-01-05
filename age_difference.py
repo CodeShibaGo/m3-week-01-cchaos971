@@ -12,5 +12,5 @@ def age_difference(ages):
             youngest_age = ages[index]
         else:
             continue
-    return oldest_age - youngest_age
+    return (youngest_age, oldest_age)
 # print(age_difference([10, 5, 8, 20, 15, 25]))
