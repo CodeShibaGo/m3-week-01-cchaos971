@@ -7,4 +7,5 @@
 #
 # 你需要返回一個列表，列表中包含每位成員的分類。
 def categorize_new_member(data):
-    pass
+    check_senior = lambda member : "Senior" if member[0] >= 55 and member[1] > 7 else "Open"
+    return list(map(check_senior, data))

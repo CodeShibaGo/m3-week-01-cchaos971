@@ -1,2 +1,3 @@
+import math
 def litres(time):
-    return float(time * 200).round()
+    return math.floor((time * 0.5))
