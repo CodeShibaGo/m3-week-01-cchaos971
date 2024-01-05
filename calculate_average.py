@@ -1,2 +1,2 @@
 def calculate_average(nums):
-    pass
+    return sum(nums)/len(nums)

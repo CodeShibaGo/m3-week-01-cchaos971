@@ -1,2 +1,2 @@
 def litres(time):
-    pass
+    return float(time * 200).round()
